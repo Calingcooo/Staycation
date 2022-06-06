@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+.login, .register {
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar {
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.li-black {
+    font-weight: 500;
+    color: black;
+}
+
+.li-black:hover {
+    border-bottom: 1px solid rgb(135, 135, 143);
+}
+
+.carousel-inner {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#overlay {
+    z-index: 999;
+    height: 100%;
+    background-color:rgb(0,0,0,.3);
+}
+
+.h1 {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 5px;
+    font-size: 135px;
+    color: white;
+}
+
+.first-section-p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.luxury {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6em;
+}
+
+.lux-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.luxury-p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2em;
+}
+
+.first-section {
+    position: relative;
+}
+
+.login {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login:hover {
+    background-color: rgb(54, 54, 250);
+}
+
+.register {
+    background-color: rgb(248, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register:hover {
+    background-color: rgb(236, 73, 73);
+}
+
+.book {
+    border: none;
+    background-color: rgb(255, 0, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.book:hover {
+    background-color: rgb(241, 68, 68);
+}
+
+.discount-header, .fcfs-header, .surprise-header {
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.discount-p, .fcfs-header-p, .surprise-p {
+    font-size: 1rem;
+}
+
+.footer {
+    color: aliceblue;
+}
+
+.footer-header {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.footer-credits {
+    background-color: rgb(53, 50, 50);
+    color: white;
+}
+
+.privacy>a, .cookie>a, .terms>a, .accessibility>a, .sitemap>a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: .8rem;
+}
+
+.privacy>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.cookie>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.terms>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.accessibility>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.sitemap>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.staycation {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 3rem;
+}
+
+.mode {
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    ;
+}
+
+.on {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 20px;
+}
+
+.credits {
+    color: white;
+    font-size: .8rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* TEXT OVERLAY RESPONSIVE */
+@media  screen and (max-width: 1362px) {
+    .h1 {
+        font-size: 100px;
+        }
+
+    .first-section-p {
+        font-size: 40px;
+    }
+
+    .second-section {
+        text-align: center;
+    }
+
+    .luxury {
+        font-size: 4em;
+    }
+
+    .luxury-p {
+        font-size: 1.5em;
+    }
+}
+
+@media  screen and (max-width: 996px) {
+    .h1 {
+        font-size: 70px;
+        }
+
+    .first-section-p {
+        font-size: 15px;
+    }
+    .second-section {
+        text-align: center;
+    }
+
+    .luxury {
+        font-size: 3em;
+    }
+
+    .luxury-p {
+        font-size: 1.5em;
+    }
+}
+
+@media  screen and (max-width: 760px) {
+    .h1 {
+        font-size: 50px;
+        }
+
+    .first-section-p {
+        font-size: 15px;
+    }
+    .second-section {
+        align-items: center;
+    }
+
+    .luxury {
+        font-size: 3em;
+    }
+
+    .luxury-p {
+        font-size: 1.2em;
+    }
+}
+
+@media  screen and (max-width: 526px) {
+    .h1 {
+        font-size: 30px;
+        }
+
+    .first-section-p {
+        font-size: 12px;
+    }
+    .second-section {
+        align-items: center;
+    }
+
+    .luxury {
+        font-size: 3em;
+    }
+
+    .luxury-p {
+        font-size: 1em;
+    }
+}
+
+
+/* REMOVED NAVBAR BOTTOM BORDER ON SMALLER SCREEN */
+
+@media screen and (max-width: 990px) {
+    .li-black:hover {
+        border: none;
+    }
+}

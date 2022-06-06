@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.li-black {
+    font-weight: 500;
+    color: black;
+}
+
+.li-black:hover {
+    border-bottom: 1px solid rgb(135, 135, 143);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/services.webp');
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text>h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    width: 100%;
+}
+
+.btn:hover {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(240, 64, 64);
+}
+
+.footer {
+    color: aliceblue;
+}
+
+.footer-header {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.footer-credits {
+    background-color: rgb(53, 50, 50);
+    color: white;
+}
+
+.privacy>a,
+.cookie>a,
+.terms>a,
+.accessibility>a,
+.sitemap>a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: .8rem;
+}
+
+.privacy>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.cookie>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.terms>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.accessibility>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.sitemap>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.staycation {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 3rem;
+}
+
+.mode {
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    ;
+}
+
+.on {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 20px;
+}
+
+.credits {
+    color: white;
+    font-size: .8rem;
+}
+
+.login, .register {
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login:hover {
+    background-color: rgb(54, 54, 250);
+}
+
+.register {
+    background-color: rgb(248, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register:hover {
+    background-color: rgb(236, 73, 73);
+}
+
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
