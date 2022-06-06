@@ -1,1 +1,301 @@
-KodeGo-Multi-page-website-activity
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Staycation Philippines</title>
+</head>
+
+<body>
+    <!-- HEADER / NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <!-- LOGO -->
+        <a class="navbar-brand" href="index.html">
+            <image src="images/logo.png" style="height: 40px; width: 150px;"></image>
+        </a>
+        <!-- RESPONSIVE NAVBAR -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 5H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M3 12H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M3 19H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav text-center  mb-2 ms-auto mb-lg-0">
+                <li class="nav-item">
+                    <a class="li-black nav-link" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="li-black nav-link" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="li-black nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="li-black nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+    </nav>
+
+
+    <!--FIRST SECTION OF INDEX -->
+    <!-- CAROUSEL -->
+    <div class="carousel">
+        <div class="row">
+            <div class="col col-12">
+                <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/carousel.jpg" class="d-block w-100" alt="Hotel">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel1.jpg" class="d-block w-100" alt="Bedroom">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel2.jpg" class="d-block w-100" alt="Bedroom">
+                        </div>
+                        <!-- CAROUSEL TEXT OVERLAY -->
+                        <div class="first-section" id="home">
+                            <div class="row">
+                                <div class="col col-12 text-center mt-5" id="overlay">
+                                    <div class="text-overlay">
+                                        <p class="h1 fw-bolder">Enjoy your <br><span class="vacation"
+                                                style="color: rgb(255, 0, 0);">vacation</span>
+                                            with
+                                            us.</p>
+                                        <p class="first-section-p">Relax and enjoy with the most magical and <br>
+                                            beatiful
+                                            staycation in
+                                            the
+                                            country.</p>
+                                    </div>
+                                    <button type="button" class="login text-uppercase mb-3" data-bs-toggle="modal"
+                                        data-bs-target="#loginModal">login</button>
+                                    <button type="button" class="register text-uppercase" data-bs-toggle="modal"
+                                        data-bs-target="#signupModal">sign up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECOND SECTION OF INDEX -->
+        <div class="second-section p-3">
+            <div class="row gx-5">
+                <div class="col col-5 pt-5">
+                    <h1 class="luxury fs-lg display-3 bg-light rounded-3">Enjoy the great view</h1>
+                    <p class="luxury-p">From the trendiest boutique hotel to an iconic rooftop with a view over the
+                        skyline, enjoy a
+                        mini-holiday right around the corner from your home.</p>
+                    <buton type="button" class="book mb-2">Book now</buton>
+                </div>
+                <div class="col col-7 text-end p-5">
+                    <div data-aos="fade-down">
+                        <img src="images/luxury.jpg" class="lux-image rounded-3 w-100" alt="luxury hotel">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- THIRD SECTION OF INDEX -->
+        <div class="third-section d-flex justify-content-center">
+            <div class="row text-center mx-auto mt-5 mb-5">
+                <div class="col col-xs-4">
+                    <div data-aos="flip-left">
+                        <img src="images/discount.png" class="img-responsive" style="height: 200px; width: 200px;"
+                            alt="discount">
+                        <h1 class="discount-header fw-bolder">Discount every Sunday</h1>
+                        <p class="discount-p">Get a 50% discount every Sunday evening from 6 P.M - 10 P.M</p>
+                    </div>
+                </div>
+                <div class="col col-4">
+                    <div data-aos="flip-left">
+                        <img src="images/FCFS.png" class="img-responsive" style="height: 200px; width: 300px;"
+                            alt="discount">
+                        <h1 class="fcfs-header fw-bolder">First come, First served Policy</h1>
+                        <p class="fcfs-p">We offer limited room, so be quick!</p>
+                    </div>
+                </div>
+                <div class="col col-4">
+                    <div data-aos="flip-left">
+                        <img src="images/surprise.png" style="height: 200px; width: 200px;" alt="discount">
+                        <h1 class="surprise-header fw-bolder">New deals every week</h1>
+                        <p class="surprise-p text-wrap">New experiences, new surprises... your life in the city will
+                            never
+                            be
+                            the same again.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="row bg-dark mx-auto g-3">
+                <div class="col col-3">
+                    <h3 class="footer-header">Social links</h3>
+                    <span><a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a></span><br>
+                    <span><a href="#"><i class="fa-brands fa-tiktok"></i>Tiktok</span></a><br>
+                    <span><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></span><br>
+                    <span><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></span><br>
+                </div>
+                <div class="col col-3">
+                    <h3 class="footer-header" id="contact">Contact us</h3>
+                    <span>For any concerns or inquiries, please feel free to call or send us a message and we will get
+                        back
+                        to you the soonest.</span><br><br>
+                    <span class="tel">Tel: (02)123-456-78</span><br>
+                    <span class="phone">Phone: 09123456789</span><br>
+                    <span class="email">Email address: sample@email.com</span><br>
+
+                    <!-- FOOTER REGISTER AND LOGIN BUTTON-->
+                    <button type="button" class="login text-uppercase mb-3" data-bs-toggle="modal"
+                        data-bs-target="#loginModal">login</button>
+                    <button type="button" class="register text-uppercase" data-bs-toggle="modal"
+                        data-bs-target="#signupModal">sign up</button>
+
+                </div>
+                <div class="col col-6 text-center">
+                    <h3 class="footer-header">Our Location:</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30883.32347521532!2d121.03621074247685!3d14.632343682568429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7ce03164285%3A0xd56045ec97259d0d!2sHotel%20Sogo!5e0!3m2!1sen!2sph!4v1654154872690!5m2!1sen!2sph"
+                        width="100%" height="450" class="map-fluid" style="border:10px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <!-- FOOTER CREDITS -->
+            <div class="footer-credits">
+                <div class="row">
+                    <div class="col col-12">
+                        <div class="staycation">
+                            <span class="staycation">Staycation</span>
+                            <span class="mode">Staycation mode: <span
+                                    class="on bg-success border border-1">ON</span></span>
+                            <hr class="divider m-0">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-6">
+                        <div class="credits">© The British Standards Institution 2022</div>
+                    </div>
+                    <div class="col 6">
+                        <div class="footer-text d-flex justify-content-end p-1">
+                            <span class="privacy"><a href="">Privacy policy</a></a></span>
+                            <span class="cookie"><a href="">Cookie policy</a></span>
+                            <span class="terms"><a href="">Terms of use</a></span>
+                            <span class="accessibility"><a href="">Accessibility</a></span>
+                            <span class="sitemap"><a href="">Site map</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- LOGIN MODAL -->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="Login" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="Login" id="Login">Log in</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="emailInput"
+                                    placeholder="Enter your email address">
+                                <label for="emailInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="passwordInput"
+                                    placeholder="Enter your password">
+                                <label for="passwordInput">Password</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary w-50 mx-auto m-2">Log in</button><br>
+
+                        <p class="mx-auto">Don't have an account yet? click <a href="#">here</a> to register</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SIGNUP MODAL -->
+        <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="Login" id="Login">Fill up the form to register</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="firstName"
+                                    placeholder="Enter your First Name">
+                                <label for="firstName">First Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="lastName"
+                                    placeholder="Enter your Last Name">
+                                <label for="lastName">Last Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="number" class="form-control" id="mobile"
+                                    placeholder="Enter your contact number">
+                                <label for="lastName">Landline / Mobile</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="emailInput"
+                                    placeholder="Enter your email address">
+                                <label for="emailInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="passwordInput"
+                                    placeholder="Enter your password">
+                                <label for="passwordInput">Password</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary w-50 mx-auto m-2">Sign up</button><br>
+                        <p class="mx-auto">Already have an account? click <a href="#">Login.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
